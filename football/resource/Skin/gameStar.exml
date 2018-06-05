@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<e:Skin class="gameStar" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="750" height="1334">
+		<!--<e:Image source="map_grass_png" x="77" y="891" visible="false"/>-->
+		<e:Image source="map_grass_png" width="750" height="1334"/>
+		<e:Image source="jinqu_png" y="260"/>
+		<e:Image source="line_png" y="1047" height="10" width="750"/>
+		<e:Group id="ball" y="1047" anchorOffsetX="26" anchorOffsetY="26" x="375">
+			<e:Image id="ball_I" source="zuqiu_png" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+		<e:Image id="ballDoor" source="goal_png" y="225" x="271"/>
+		<e:Group id="console" width="750" height="269" y="1063" anchorOffsetX="0" anchorOffsetY="0" x="0">
+			<e:Label text="控制区" y="119" horizontalCenter="0" fontFamily="Arial"/>
+		</e:Group>
+		<e:Label id="test_lable" text="Label" x="23" y="56" visible="false"/>
+		<e:Group width="750" y="79" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" height="112">
+			<e:Image source="topStar_png"/>
+			<e:Label id="score" text="Label" y="40" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="gameStar" y="497" anchorOffsetX="326" horizontalCenter="0" anchorOffsetY="157" scaleX="0" scaleY="0" alpha="0">
+			<e:Image source="titleLogo_png"/>
+			<e:Label text="比赛开始" y="22" horizontalCenter="0" textColor="0x0f0000" bold="true"/>
+			<e:Label text="阿根廷" y="266" anchorOffsetX="0" x="63" bold="true"/>
+			<e:Label text="巴西" y="266" x="508" bold="true"/>
+			<e:Image source="vs_png" y="142" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="guanka" width="590" height="220" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="590" height="220" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="bg4_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="1:1" x="250.5" y="37.5" size="64" textColor="0x505050"/>
+		<e:Image source="shate_png" x="16" y="7.5"/>
+		<e:Image source="shate_png" x="427" y="7.5"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="阿根廷" x="49" y="178" fontFamily="SimHei" textColor="0x487b9b" size="28"/>
+	<e:Label text="阿根廷" x="459" y="178" fontFamily="SimHei" textColor="0x487B9B" size="28"/>
+	<e:Group width="175" height="57" y="150" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:Image source="bigstar_png" x="36" y="23"/>
+		<e:Image source="bigstar_png" x="117" y="20"/>
+		<e:Image source="bigstar_png" x="154" y="10"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="10" paddingLeft="6"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

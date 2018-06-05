@@ -1,0 +1,425 @@
+{
+	"groups": [
+		{
+			"keys": "bg_png,bg1_png,bg2_png,bg3_png,button_png,coin_png,danji_png,egret_icon_png,friendPk_png,logo_png,logwomen_png,olympics_png,star_png,u17_png,u20_png,u23_png,worldcup_png,zuqiu_png,jinqu_png,map_grass_png,line_png,goal_png,football_png,football_ske_json,football_tex_json,guanka_json,logoanime_ske_json,logoanime_tex_json,logoanime_png,topStar_png,titleLogo_png,vs_png,girlidle_ske_json,girlidle_tex_json,girlidle_png,bg4_png,bigstar_png,agenting_png,aiji_png,aodaliya_png,banama_png,baxi_png,bilishi_png,bilu_png,bingdao_png,bolan_png,danmai_png,deguo_png,eluosi_png,faguo_png,gelunbiya_png,gesidalijia_png,hanguo_png,keluodiya_png,moluoge_png,moxige_png,niriliya_png,putaoya_png,riben_png,ruidian_png,ruishi_png,saierweiya_png,wulagui_png,xibanya_png,yilang_png,yingguo_png,zhongguo_png,tunisi_png,saineijiaer_png,border_png,choose_png,choosed_png,guoqiBg_png,star_tex_json,shibai_tex_json,shengli_ske_json,shibai_png,shengli_png,shibai_ske_json,shengli_tex_json,star_ske_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/bg1.png",
+			"type": "image",
+			"name": "bg1_png"
+		},
+		{
+			"url": "assets/bg2.png",
+			"type": "image",
+			"name": "bg2_png"
+		},
+		{
+			"url": "assets/bg3.png",
+			"type": "image",
+			"name": "bg3_png"
+		},
+		{
+			"url": "assets/button.png",
+			"type": "image",
+			"name": "button_png"
+		},
+		{
+			"url": "assets/coin.png",
+			"type": "image",
+			"name": "coin_png"
+		},
+		{
+			"url": "assets/danji.png",
+			"type": "image",
+			"name": "danji_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "assets/friendPk.png",
+			"type": "image",
+			"name": "friendPk_png"
+		},
+		{
+			"url": "assets/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "assets/logwomen.png",
+			"type": "image",
+			"name": "logwomen_png"
+		},
+		{
+			"url": "assets/olympics.png",
+			"type": "image",
+			"name": "olympics_png"
+		},
+		{
+			"url": "assets/star.png",
+			"type": "image",
+			"name": "star_png"
+		},
+		{
+			"url": "assets/u17.png",
+			"type": "image",
+			"name": "u17_png"
+		},
+		{
+			"url": "assets/u20.png",
+			"type": "image",
+			"name": "u20_png"
+		},
+		{
+			"url": "assets/u23.png",
+			"type": "image",
+			"name": "u23_png"
+		},
+		{
+			"url": "assets/worldcup.png",
+			"type": "image",
+			"name": "worldcup_png"
+		},
+		{
+			"url": "assets/zuqiu.png",
+			"type": "image",
+			"name": "zuqiu_png"
+		},
+		{
+			"url": "assets/jinqu.png",
+			"type": "image",
+			"name": "jinqu_png"
+		},
+		{
+			"url": "assets/map_grass.png",
+			"type": "image",
+			"name": "map_grass_png"
+		},
+		{
+			"url": "assets/line.png",
+			"type": "image",
+			"name": "line_png"
+		},
+		{
+			"url": "assets/goal.png",
+			"type": "image",
+			"name": "goal_png"
+		},
+		{
+			"url": "db/football.png",
+			"type": "image",
+			"name": "football_png"
+		},
+		{
+			"url": "db/football_ske.json",
+			"type": "json",
+			"name": "football_ske_json"
+		},
+		{
+			"url": "db/football_tex.json",
+			"type": "json",
+			"name": "football_tex_json"
+		},
+		{
+			"url": "guanka.json",
+			"type": "json",
+			"name": "guanka_json"
+		},
+		{
+			"url": "db/logoanime_ske.json",
+			"type": "json",
+			"name": "logoanime_ske_json"
+		},
+		{
+			"url": "db/logoanime_tex.json",
+			"type": "json",
+			"name": "logoanime_tex_json"
+		},
+		{
+			"url": "db/logoanime.png",
+			"type": "image",
+			"name": "logoanime_png"
+		},
+		{
+			"url": "assets/topStar.png",
+			"type": "image",
+			"name": "topStar_png"
+		},
+		{
+			"url": "assets/titleLogo.png",
+			"type": "image",
+			"name": "titleLogo_png"
+		},
+		{
+			"url": "assets/vs.png",
+			"type": "image",
+			"name": "vs_png"
+		},
+		{
+			"url": "db/girlidle_ske.json",
+			"type": "json",
+			"name": "girlidle_ske_json"
+		},
+		{
+			"url": "db/girlidle_tex.json",
+			"type": "json",
+			"name": "girlidle_tex_json"
+		},
+		{
+			"url": "db/girlidle.png",
+			"type": "image",
+			"name": "girlidle_png"
+		},
+		{
+			"url": "assets/bg4.png",
+			"type": "image",
+			"name": "bg4_png"
+		},
+		{
+			"url": "assets/bigstar.png",
+			"type": "image",
+			"name": "bigstar_png"
+		},
+		{
+			"url": "countries/agenting.png",
+			"type": "image",
+			"name": "agenting_png"
+		},
+		{
+			"url": "countries/aiji.png",
+			"type": "image",
+			"name": "aiji_png"
+		},
+		{
+			"url": "countries/aodaliya.png",
+			"type": "image",
+			"name": "aodaliya_png"
+		},
+		{
+			"url": "countries/banama.png",
+			"type": "image",
+			"name": "banama_png"
+		},
+		{
+			"url": "countries/baxi.png",
+			"type": "image",
+			"name": "baxi_png"
+		},
+		{
+			"url": "countries/bilishi.png",
+			"type": "image",
+			"name": "bilishi_png"
+		},
+		{
+			"url": "countries/bilu.png",
+			"type": "image",
+			"name": "bilu_png"
+		},
+		{
+			"url": "countries/bingdao.png",
+			"type": "image",
+			"name": "bingdao_png"
+		},
+		{
+			"url": "countries/bolan.png",
+			"type": "image",
+			"name": "bolan_png"
+		},
+		{
+			"url": "countries/danmai.png",
+			"type": "image",
+			"name": "danmai_png"
+		},
+		{
+			"url": "countries/deguo.png",
+			"type": "image",
+			"name": "deguo_png"
+		},
+		{
+			"url": "countries/eluosi.png",
+			"type": "image",
+			"name": "eluosi_png"
+		},
+		{
+			"url": "countries/faguo.png",
+			"type": "image",
+			"name": "faguo_png"
+		},
+		{
+			"url": "countries/gelunbiya.png",
+			"type": "image",
+			"name": "gelunbiya_png"
+		},
+		{
+			"url": "countries/gesidalijia.png",
+			"type": "image",
+			"name": "gesidalijia_png"
+		},
+		{
+			"url": "countries/hanguo.png",
+			"type": "image",
+			"name": "hanguo_png"
+		},
+		{
+			"url": "countries/keluodiya.png",
+			"type": "image",
+			"name": "keluodiya_png"
+		},
+		{
+			"url": "countries/moluoge.png",
+			"type": "image",
+			"name": "moluoge_png"
+		},
+		{
+			"url": "countries/moxige.png",
+			"type": "image",
+			"name": "moxige_png"
+		},
+		{
+			"url": "countries/niriliya.png",
+			"type": "image",
+			"name": "niriliya_png"
+		},
+		{
+			"url": "countries/putaoya.png",
+			"type": "image",
+			"name": "putaoya_png"
+		},
+		{
+			"url": "countries/riben.png",
+			"type": "image",
+			"name": "riben_png"
+		},
+		{
+			"url": "countries/ruidian.png",
+			"type": "image",
+			"name": "ruidian_png"
+		},
+		{
+			"url": "countries/ruishi.png",
+			"type": "image",
+			"name": "ruishi_png"
+		},
+		{
+			"url": "countries/saierweiya.png",
+			"type": "image",
+			"name": "saierweiya_png"
+		},
+		{
+			"url": "countries/shate.png",
+			"type": "image",
+			"name": "shate_png"
+		},
+		{
+			"url": "countries/wulagui.png",
+			"type": "image",
+			"name": "wulagui_png"
+		},
+		{
+			"url": "countries/xibanya.png",
+			"type": "image",
+			"name": "xibanya_png"
+		},
+		{
+			"url": "countries/yilang.png",
+			"type": "image",
+			"name": "yilang_png"
+		},
+		{
+			"url": "countries/yingguo.png",
+			"type": "image",
+			"name": "yingguo_png"
+		},
+		{
+			"url": "countries/zhongguo.png",
+			"type": "image",
+			"name": "zhongguo_png"
+		},
+		{
+			"url": "countries/tunisi.png",
+			"type": "image",
+			"name": "tunisi_png"
+		},
+		{
+			"url": "countries/saineijiaer.png",
+			"type": "image",
+			"name": "saineijiaer_png"
+		},
+		{
+			"url": "chooseCountries/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "chooseCountries/choose.png",
+			"type": "image",
+			"name": "choose_png"
+		},
+		{
+			"url": "chooseCountries/choosed.png",
+			"type": "image",
+			"name": "choosed_png"
+		},
+		{
+			"url": "chooseCountries/guoqiBg.png",
+			"type": "image",
+			"name": "guoqiBg_png"
+		},
+		{
+			"url": "db/star_tex.json",
+			"type": "json",
+			"name": "star_tex_json"
+		},
+		{
+			"url": "db/shibai_tex.json",
+			"type": "json",
+			"name": "shibai_tex_json"
+		},
+		{
+			"url": "db/shengli_ske.json",
+			"type": "json",
+			"name": "shengli_ske_json"
+		},
+		{
+			"url": "db/shibai.png",
+			"type": "image",
+			"name": "shibai_png"
+		},
+		{
+			"url": "db/shengli.png",
+			"type": "image",
+			"name": "shengli_png"
+		},
+		{
+			"url": "db/shibai_ske.json",
+			"type": "json",
+			"name": "shibai_ske_json"
+		},
+		{
+			"url": "db/shengli_tex.json",
+			"type": "json",
+			"name": "shengli_tex_json"
+		},
+		{
+			"url": "db/star_ske.json",
+			"type": "json",
+			"name": "star_ske_json"
+		},
+		{
+			"url": "db/star.png",
+			"type": "image",
+			"name": "star_png"
+		}
+	]
+}

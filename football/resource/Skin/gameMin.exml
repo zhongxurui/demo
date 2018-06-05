@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameMin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="logo">
+			<tween:TweenItem target="{image0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-399.44}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{153}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object y="{81}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{153}" y="{133}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="button_1">
+			<tween:TweenItem target="{shengya}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-331}" y="{420}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object x="{44}" y="{420}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{28}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{14}" y="{420}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group width="750" height="1334">
+		<e:Image source="bg_png" x="0" y="0" scaleX="1" scaleY="1" width="750"/>
+		<e:Group id="logo_db" width="722" height="221" x="14" y="160">
+			<e:Image id="image0" source="logo_png" horizontalCenter="0" y="0" x="0" scaleX="1" scaleY="1" visible="false"/>
+		</e:Group>
+		<e:Image source="logwomen_png" x="343.5" y="420" visible="false"/>
+		<e:Group id="logowomen" width="475" height="916" x="343.5" y="420"/>
+		<e:Group width="670" height="160" anchorOffsetX="0" y="1138" horizontalCenter="0" anchorOffsetY="0">
+			<e:Image source="button_png" x="304" y="84" scaleX="1" scaleY="1"/>
+			<e:Image source="button_png" x="408" y="26"/>
+			<e:Image source="button_png" x="378" y="-58" scaleX="1" scaleY="1"/>
+			<e:Image source="button_png" x="240" y="-50" scaleX="1" scaleY="1"/>
+			<e:Image source="button_png" x="360" y="48"/>
+			<e:Image id="image" source="button_png" x="280" y="-24" scaleX="1" scaleY="1"/>
+			<e:layout>
+			<e:TileLayout paddingLeft="15.5" horizontalGap="25" verticalGap="25"/>
+			</e:layout>
+		</e:Group>
+		<e:Image source="friendPk_png" x="16" y="663"/>
+		<e:Image id="shengya" source="danji_png" y="450" x="15"/>
+	</e:Group>
+</e:Skin>

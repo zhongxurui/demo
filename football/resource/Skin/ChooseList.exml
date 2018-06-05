@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChooseList" width="190" height="220" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="guoqiBg_png"/>
+	<e:Image source="{data.logo}" horizontalCenter="0" y="27"/>
+	<e:Label text="{data.name}" y="177" horizontalCenter="0" textColor="0x487b9b"/>
+</e:Skin>

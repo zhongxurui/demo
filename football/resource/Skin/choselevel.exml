@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="choselevel" width="750" height="1334" xmlns:e="http://ns.egret.com/eui">
+	<e:List width="638" height="768.31" y="314.02" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="guanka" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout/>
+		</e:layout>
+	</e:List>
+	<e:Group width="750" height="1334" x="0" y="0">
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+		<e:Image source="bg1_png" scale9Grid="20,20,60,60" width="652" height="1060" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="bg3_png" x="85" y="242"/>
+		<e:Image source="bg3_png" x="349" y="242"/>
+		<e:Image source="star_png" x="89" y="241"/>
+		<e:Image source="coin_png" x="351" y="242"/>
+		<e:Label text="9999" x="246" y="249" textColor="0x484848" size="32" fontFamily="SimHei"/>
+		<e:Label text="9999" x="510" y="249" textColor="0x484848" size="32" fontFamily="SimHei"/>
+		<e:Label text="U17-世少赛" y="168" fontFamily="SimHei" size="42" textColor="0x496599" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>
