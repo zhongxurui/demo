@@ -8,7 +8,7 @@
  * config配置文件
  */
 namespace game {
-    const host: string = "";
+    const host: string = ""; 
     const Md5key = "tkq:B5Y_mBl9:l/9";  //Md5加密key
     const CountriesData = {
         European: [
